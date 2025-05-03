@@ -11,3 +11,8 @@ function getHumanChoice() {
   return getChoice();
 }
 console.log(getHumanChoice());
+
+// declare player score
+
+const humanScore = 0;
+const computerScore = 0;
