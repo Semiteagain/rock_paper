@@ -4,4 +4,10 @@ function getComputerChoice() {
   return comChoice[comIndex];
 }
 
-console.log(getComputerChoice());
+// console.log(getComputerChoice());
+
+function getHumanChoice() {
+  const getChoice = Number(window.prompt("click to play", ""));
+  return getChoice();
+}
+console.log(getHumanChoice());
